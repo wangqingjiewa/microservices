@@ -21,7 +21,8 @@ public class Order implements Serializable {
     @GeneratedValue(strategy=GenerationType.AUTO)
     @Column
     int orderId;
-    
+
+
     @ElementCollection
     List<OrderItem> orderItems;
 
