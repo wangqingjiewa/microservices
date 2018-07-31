@@ -22,7 +22,6 @@ public class Order implements Serializable {
     @Column
     int orderId;
 
-
     @ElementCollection
     List<OrderItem> orderItems;
 
